@@ -7,6 +7,9 @@ WORKDIR /code
 ADD . /code/
 ADD etc /etc
 
+RUN pip install --upgrade pip 
+RUN pip install wheel
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
         openmpi-bin \
         python \
