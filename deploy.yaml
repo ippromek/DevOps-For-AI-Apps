@@ -5,6 +5,6 @@ metadata:
 spec:
  containers:
    - name: model-ap_1
-     image: olegemirates.azurecr.io/model-ap_1
+     image: olegemirates.azurecr.io/model-ap_1:latest
      ports:
        - containerPort: 88
