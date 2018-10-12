@@ -5,6 +5,6 @@ metadata:
 spec:
  containers:
    - name: model-api
-     image: $ACR_DNS/model-ap_1
+     image: olegemirates.azurecr.io/model-ap_1
      ports:
        - containerPort: 88
