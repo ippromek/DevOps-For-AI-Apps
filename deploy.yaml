@@ -4,7 +4,7 @@ metadata:
  name: imageclassificationapp
 spec:
  containers:
-   - name: model-ap-1
+   - name: modelap1
      image: olegemirates.azurecr.io/model-ap_1:latest
      ports:
        - containerPort: 88
